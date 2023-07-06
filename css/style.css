@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav start */
+.nav-container{
+    background-color: rgb(107, 62, 62);
+    padding: 20px;
+    color: wheat;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-photo{
+    width: 100px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.item:hover{
+    color: blue;
+}
+/* nav end */
+/* banner start */
+.banner-cointainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh ;
+    /* border: 2px solid red; */
+    background-image: url("../image/banner/download.jpeg"),
+    linear-gradient(45deg,rgb(9,10,89),rgb(42, 42, 199));
+    color: wheat;
+}
+.banner-img{
+    width: 300px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 10px;
+    background-color: red;
+    box-shadow:10px 10px 10px  ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color:wheat;
+    background-color: green;
+}
+/* banner end */
