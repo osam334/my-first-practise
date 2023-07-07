@@ -36,8 +36,9 @@
     align-items: center;
     height:100vh ;
     /* border: 2px solid red; */
+    background-color: red;
     background-image: url("../image/banner/download.jpeg"),
-    linear-gradient(45deg,rgb(9,10,89),rgb(42, 42, 199));
+    linear-gradient(45deg,rgb(9,10,89),rgb(63, 63, 168));
     color: wheat;
 }
 .banner-img{
@@ -59,9 +60,88 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    margin: 10px;
 }
 .btn:hover{
     color:wheat;
     background-color: green;
 }
 /* banner end */
+/* about us start  */
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* border: 2px solid red; */
+
+
+}
+.service-container{
+    display: flex;justify-content: space-around;
+    padding: 20px;
+}
+.about-title{
+    font-size: 20px;  
+    text-align: center;
+    font-size:60px;
+    padding: 20px;
+}
+/* about us end */
+/* our sevice start */
+.service-container{
+    display: flex;justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+}
+.ser-title{
+    font-size: 20px;  
+    text-align: center;
+    font-size:60px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+.icon{
+    width: 100px;
+   
+}
+.box{
+    width: 250px;
+    height: 300pxpx;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    text-align: center;
+    color: antiquewhite;
+    padding: 15px;
+}
+.box-title{
+    
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/* our service end */
+/* footer start */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+.fimg{
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.footer1 li{
+    list-style: none;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+/* footer end */
